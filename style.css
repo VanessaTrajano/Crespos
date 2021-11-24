@@ -96,6 +96,7 @@ main{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    position: absolute;
 }
 .intro-titulo{
     width: 60vw;
@@ -115,11 +116,52 @@ main{
     font-size: 1.4vw;
 }
 .dica-num1 img{
-    width: 63vw;
-    height: 52vw;
+    width: 40vw;
+    height: 30vw;
+    position: absolute;
+    left: 6.5vw;
+    top: 26vw;
 }
 .dica-num1 div{
     background-color: #9767A9;
-    height: 40vw;
-    width: 44vw;
+    height: 36vw;
+    width: 32vw;
+    position: absolute;
+    left: 11vw;
+    top: 51vw;
+    padding: 2vw;
+}
+.dica-num1 h3{
+    font-size: 2.7vw;
+    text-align: left;
+    font-family: 'Playfair Display';
+    padding-bottom: 1vw;
+}
+.dica-num1 p{
+    font-size: 1.32vw;
+}
+.dica-num2 img{
+    width: 45vw;
+    height: 35vw;
+    position: absolute;
+    right: 6.5vw;
+    top: 50vw;
+}
+.dica-num2 div{
+    background-color: #9767A9;
+    height: 34vw;
+    width: 32vw;
+    position: absolute;
+    padding: 2vw;
+    right: 11vw;
+    top: 80vw;
+}
+.dica-num2 h3{
+    font-size: 2.7vw;
+    text-align: left;
+    font-family: 'Playfair Display';
+    padding-bottom: 1vw;
+}
+.dica-num2 p{
+    font-size: 1.32vw;
 }
