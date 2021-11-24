@@ -86,6 +86,9 @@ main{
 .titulo p{
     font-size: 2.4vw;
 }
+.dicas{
+    position: relative;
+}
 .intro{
     height: 29.5vw;
     width: 98.7vw;
@@ -110,4 +113,13 @@ main{
 }
 .intro-p p{
     font-size: 1.4vw;
+}
+.dica-num1 img{
+    width: 63vw;
+    height: 52vw;
+}
+.dica-num1 div{
+    background-color: #9767A9;
+    height: 40vw;
+    width: 44vw;
 }
