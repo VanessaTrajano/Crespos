@@ -7,7 +7,7 @@
     font-family: 'Montserrat';
 }
 header{
-    height: 14.3vh;
+    height: 6.7vw;
     width: 100vw;
     display: flex;
     background-color: white;
@@ -24,7 +24,7 @@ nav ul{
     list-style: none;
     display: flex;
     color: #9767A9;
-    height: 3.6vh;
+    height: 1.7vw;
     width: 50vw;
     justify-content: space-between;
     font-size: 1.35vw;
@@ -55,7 +55,7 @@ nav li:hover{
 }
 main{
     color: #fff;
-    padding-top: 14.3vh;
+    padding-top: 6.7vw;
 }
 .cabeludo{
     height: 60vw;
