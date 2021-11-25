@@ -116,15 +116,15 @@ main{
     font-size: 1.4vw;
 }
 .dica-num1 img{
-    width: 40vw;
-    height: 30vw;
+    width: 43vw;
+    height: 33vw;
     position: absolute;
-    left: 6.5vw;
+    left: 6vw;
     top: 26vw;
 }
 .dica-num1 div{
     background-color: #9767A9;
-    height: 36vw;
+    height: 34vw;
     width: 32vw;
     position: absolute;
     left: 11vw;
@@ -139,12 +139,13 @@ main{
 }
 .dica-num1 p{
     font-size: 1.32vw;
+    text-align: left;
 }
 .dica-num2 img{
-    width: 45vw;
-    height: 35vw;
+    width: 43vw;
+    height: 33vw;
     position: absolute;
-    right: 6.5vw;
+    right: 6vw;
     top: 50vw;
 }
 .dica-num2 div{
@@ -154,7 +155,7 @@ main{
     position: absolute;
     padding: 2vw;
     right: 11vw;
-    top: 80vw;
+    top: 74vw;
 }
 .dica-num2 h3{
     font-size: 2.7vw;
@@ -164,4 +165,109 @@ main{
 }
 .dica-num2 p{
     font-size: 1.32vw;
+    text-align: left;
+}
+.dica-num3 img{
+    width: 43vw;
+    height: 33vw;
+    position: absolute;
+    left: 6vw;
+    top: 86vw;   
+}
+.dica-num3 div{
+    background-color: #9767A9;
+    height: 28vw;
+    width: 32vw;
+    position: absolute;
+    padding: 2vw;
+    left: 11vw;
+    top: 110vw;
+}
+.dica-num3 h3{
+    font-size: 2.7vw;
+    text-align: left;
+    font-family: 'Playfair Display';
+    padding-bottom: 1vw;
+}
+.dica-num3 p{
+    font-size: 1.32vw;
+    text-align: left;
+}
+.dica-num4 img{
+    width: 43vw;
+    height: 33vw;
+    position: absolute;
+    right: 6vw;
+    top: 109vw;
+}
+.dica-num4 div{
+    background-color: #9767A9;
+    height: 31vw;
+    width: 32vw;
+    position: absolute;
+    padding: 2vw;
+    right: 11vw;
+    top: 140vw;
+}
+.dica-num4 h3{
+    font-size: 2.7vw;
+    text-align: left;
+    font-family: 'Playfair Display';
+    padding-bottom: 1vw;
+}
+.dica-num4 p{
+    font-size: 1.32vw;
+    text-align: left;
+}
+.dica-num5 img{
+    width: 43vw;
+    height: 33vw;
+    position: absolute;
+    left: 6vw;
+    top: 139vw;
+}
+.dica-num5 div{
+    background-color: #9767A9;
+    height: 32vw;
+    width: 32vw;
+    position: absolute;
+    padding: 2vw;
+    left: 11vw;
+    top: 163vw;
+}
+.dica-num5 h3{
+    font-size: 2.7vw;
+    text-align: left;
+    font-family: 'Playfair Display';
+    padding-bottom: 1vw;
+}
+.dica-num5 p{
+    font-size: 1.32vw;
+    text-align: left;
+}
+.dica-num6 img{
+    width: 43vw;
+    height: 33vw;
+    position: absolute;
+    right: 6vw;
+    top: 172vw;
+}
+.dica-num6 div{
+    background-color: #9767A9;
+    height: 24vw;
+    width: 32vw;
+    position: absolute;
+    padding: 2vw;
+    right: 11vw;
+    top: 200vw;
+}
+.dica-num6 h3{
+    font-size: 2.7vw;
+    text-align: left;
+    font-family: 'Playfair Display';
+    padding-bottom: 1vw;
+}
+.dica-num6 p{
+    font-size: 1.32vw;
+    text-align: left;
 }
