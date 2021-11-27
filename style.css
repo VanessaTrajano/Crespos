@@ -36,7 +36,7 @@ nav li:hover{
 .busca input{
     height: 3.1vw;
     width: 16vw;
-    border: 3px solid #9767A9;
+    border: 0.23vw solid #9767A9;
     border-radius: 8.2vh;
     padding-left: 3vw;
     background-image: url("./img/lupa.png");
@@ -224,7 +224,7 @@ main{
     height: 33vw;
     position: absolute;
     left: 6vw;
-    top: 139vw;
+    top: 142vw;
 }
 .dica-num5 div{
     background-color: #9767A9;
@@ -233,7 +233,7 @@ main{
     position: absolute;
     padding: 2vw;
     left: 11vw;
-    top: 163vw;
+    top: 166vw;
 }
 .dica-num5 h3{
     font-size: 2.7vw;
@@ -270,4 +270,37 @@ main{
 .dica-num6 p{
     font-size: 1.32vw;
     text-align: left;
+}
+.dica-num7 img{
+    width: 43vw;
+    height: 33vw;
+    position: absolute;
+    left: 6vw;
+    top: 205vw;
+}
+.dica-num7 div{
+    background-color: #9767A9;
+    height: 22vw;
+    width: 32vw;
+    position: absolute;
+    padding: 2vw;
+    left: 11vw;
+    top: 229vw;
+}
+.dica-num7 h3{
+    font-size: 2.7vw;
+    text-align: left;
+    font-family: 'Playfair Display';
+    padding-bottom: 1vw;
+}
+.dica-num7 p{
+    font-size: 1.32vw;
+    text-align: left;
+}
+.fio img{
+    height: 5vw;
+    width: 30vw;
+    position: absolute;
+    right: 11vw;
+    top: 232vw;
 }
