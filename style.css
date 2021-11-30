@@ -304,3 +304,11 @@ main{
     right: 11vw;
     top: 232vw;
 }
+.grid{
+    position: relative;
+    top: 260vw;
+    display: flex;
+    width: 100vw;
+    padding-left: 7vw;
+    padding-right: 7vw;
+}
