@@ -42,6 +42,10 @@ nav li:hover{
     background-image: url("./img/lupa.png");
     background-position: 0.8vw;
     background-repeat: no-repeat;
+    background-size: 10%;
+}
+::placeholder{
+    font-size: 1.5vw;
 }
 .redes-sociais{
     display: flex;
@@ -382,10 +386,13 @@ main{
 footer{
     background-color: #9767A9;
     height: 8.2vw;
-    width: 98vw;
+    width: 98.7vw;
     position: absolute;
     top: 380vw;
     display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: space-evenly;
 }
 footer img{
     width: 2.9vw;
@@ -393,8 +400,30 @@ footer img{
 }
 .referencias{
     width:60vw;
+    height: 100%;
+    font-size: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
 }
 .voltar{
     display: flex;
-    width: 35;
+    justify-content: space-around;
+    width: 30vw;
+    height: 100%;
+}
+.voltar a{
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    width: 9vw;
+    height: 100%;
+}
+.voltar p{
+    font-size: 1.4vw;
+}
+.voltar a:hover{
+    background-color: #AC95BB;
 }
