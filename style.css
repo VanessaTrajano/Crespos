@@ -30,7 +30,7 @@ nav ul{
     font-size: 1.35vw;
 }
 nav li:hover{
-    font-weight: 800;
+    font-weight: 900;
     cursor: pointer;
 }
 nav input{
@@ -408,9 +408,14 @@ footer img{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+}
+.referencias-media{
+    display: none;
 }
 .redes-sociais-footer{
+    display: none;
+}
+.voltar-media{
     display: none;
 }
 .voltar{
@@ -435,6 +440,9 @@ footer img{
 }
 
 @media (max-width: 426px) {
+    header{
+        height: 7vw;
+    }
     .busca{
         display: none;
     }
@@ -486,7 +494,6 @@ footer img{
         font-size: 2.5vw;
         margin-top: 1vw;
     }
-    
     .diquinhas{
         display: flex;
         flex-direction: column;
@@ -642,6 +649,9 @@ footer img{
         height: auto;
         padding: 3vw;
     }
+    .grid img{
+        padding-top:1vw;
+    }
     .img-grid1{
         width: 48vw;
         height: 65vw;
@@ -651,7 +661,7 @@ footer img{
         grid-row-end: 4;
     }
     .img-grid2{
-        width: 90vw;
+        width: 95vw;
         height: 55vw;
         grid-column-start: 1;
         grid-column-end: 5;
@@ -679,7 +689,7 @@ footer img{
         grid-row-end: 4;
     }
     .img-grid6{
-        width: 40vw;
+        width: 45vw;
         height: 70vw;
         grid-column-start: 3;
         grid-column-end: 5;
@@ -713,6 +723,52 @@ footer img{
         grid-row-end: 8;
     }
     footer{
+        background-color: #fff;
+        height: 35vw;
+        width: 90vw;
+        position: relative;
+        top: 0vw;
+        color: #000;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-evenly;
+        margin-left: 5vw;
+    }
+    footer section{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
+    }
+    .referencias{
         display: none;
+    }
+    .referencias-media{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        font-size: 2.3vw;
+    }
+    .redes-sociais-footer{
+        display: flex;
+        width: 35vw;
+        justify-content: space-evenly;
+    }
+    .redes-sociais-footer img{
+        width: 9vw;
+        height: 9vw;
+    }
+    .voltar{
+        display: none;
+    }
+    .voltar-media{
+        display: flex;
+        width:40vw;
+        justify-content:center;
+    }
+    .voltar-media img{
+        width: 22vw;
+        height: 6vw;
     }
 }
