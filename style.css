@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat';
+    scroll-behavior: smooth;
 }
 header{
     height: 6.7vw;
@@ -20,7 +21,7 @@ header{
     height: 4.2vw;
     width: 8.7vw;
 }
-nav ul{
+.nav-pc ul{
     list-style: none;
     display: flex;
     color: #9767A9;
@@ -29,11 +30,11 @@ nav ul{
     justify-content: space-between;
     font-size: 1.35vw;
 }
-nav li:hover{
+.nav-pc li:hover{
     font-weight: 900;
     cursor: pointer;
 }
-nav input{
+.nav-media{
     display: none;
 }
 .busca input{
@@ -441,13 +442,67 @@ footer img{
 
 @media (max-width: 426px) {
     header{
-        height: 7vw;
+        height: 8vw;
+        justify-content: safe;
+    }
+    .logo{
+        padding-top:1.5vw;
+        padding-left:40vw;
+    }
+    .logo img{
+        height: 90%;
+        width: 20%;
     }
     .busca{
         display: none;
     }
     .redes-sociais{
         display: none;
+    }
+    .nav-pc{
+        display: none;
+    }
+    .nav-media{
+        display: flex;
+    }
+    .nav-media ul{
+        list-style: none;
+        position: absolute;
+        width: 100%;
+    }
+    .nav-media input{
+        display: none;
+    }
+    .nav-media nav{
+        background-color: #9767A9;
+        width: 35vw;
+        height: 42vw;
+        z-index: -1;
+        top: 8.01vw;
+        left: -40vw;
+        position: absolute;
+        transition: all .5s;
+    }
+    input[type="checkbox"]:checked ~ nav{
+        transform: translateX(40vw);
+    }
+    .nav-media li{
+        display: block;
+        height: 7vw;
+        padding: 1vw;
+        color: #fff;
+    }
+    .nav-media li:hover{
+        background-color: #AC95BB;
+        font-weight: 900;
+    }
+    .nav-media label{
+        position: absolute;
+        margin-top: -4.02vw;
+    }
+    
+    .nav-media img{
+        width: 10vw;
     }
     .cabeludo{
         background-image: url("./img/cabeludo-media.png");
